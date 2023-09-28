@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi pagina perosnal</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--script src="/js/scripts.js"></script-->
+  </head>
+  <body>
+    <main>
+      <div class="header">Johanna Martinez</div>
+      <div class="terminal" id="terminalWindow">
+        <section id="terminal">
+          <div class="command">
+            <span class="error" id="date"></span>
+          </div>
+          <div class="title">Mi Pagina Personal</div>
+          Hola! ingresa <span class="command">help</span> para ver la lista de
+          opciones
+        </section>
+        <div class="prompt">
+          <span class="command">$</span><span class="title">Joha</span
+          ><input id="promptInput" />
+        </div>
+      </div>
+    </main>
+    <div class="hidden" id="promptClone">
+      <span class="command">$</span><span class="title">Joha</span>
+      <span class="promptCloneInput"></span>
+      <div class="promptCloneContent"></div>
+    </div>
+
+    <!--Comandos-->
+    <div class="hidden" id="help">
+      <div class="sectionTitle">Lista de opciones:</div>
+      <div class="indent"></div>
+      <div>
+        <span class="command">help</span>
+        <div class="indent">Lista de opciones</div>
+
+        <span class="command">perfil</span>
+        <div class="indent">Mi perfil laboral</div>
+
+        <span class="command">experiencia</span>
+        <div class="indent">Mi experiencia laboral</div>
+
+        <span class="command">estudios</span>
+        <div class="indent">Mis estudios</div>
+
+        <span class="command">referencias</span>
+        <div class="indent">Referencias personales y laborales</div>
+
+        <span class="command">clear</span>
+        <div class="indent">Limpiar la terminal</div>
+      </div>
+    </div>
+    <!--Fin Comandos-->
+
+    <!--Secciones-->
+
+    <div class="hidden" id="perfil">
+      <div class="sectionTitle">Perfil laboral</div>
+      <div class="indent">
+        <span class="text"
+          >Persona con actitud laboral activa, confiable y con valores éticos,
+          disponibilidad a la labor encomendada, con atencion al cliente, además
+          de ingenio y fácil adaptación a la empresa, organizada, con facilidad
+          de comunicación y seguimiento de metas, alto sentido de pertenencia y
+          responsabilidad.
+        </span>
+      </div>
+    </div>
+
+    <div class="hidden" id="experiencia">
+      <div class="sectionTitle">Experiencia laboral</div>
+      <div class="indent">
+        <span class="title">Ejecutiva comercial - Mottiva IPS</span> -
+        <span class="text"
+          >Elaborar plan comercial semanal, mensual y anual, Implementar
+          estrategias comerciales y/o de marketing, Definir ruta de visitas
+          médicas, Elaborar las previsiones de ventas mes a mes, Reportar
+          gestión comercial a la administración, Búsqueda de proveedores y
+          negociación, Acompañamiento administrativo.
+        </span>
+      </div>
+      <div class="indent">
+        <span class="title">Asesora comercial - Lean Sisma</span> -
+        <span class="text"
+          >Definir objetivos concretos a toda la fuerza comercial ,Realizar
+          facturación de los principales negocios, Implementar estrategias
+          comerciales y/o de marketing, Concretar los diferentes canales
+          comerciales, la estructura, tamaño y rutas, Elaborar las previsiones
+          de ventas junto al departamento de marketing, Reportar a dirección
+          general, Apoyar en la captación y negociación con las Grandes Cuentas,
+          o con los clientes establecidos, Búsqueda de proveedores y
+          negociación, Seguimiento de cartera.
+        </span>
+      </div>
+    </div>
+
+    <div class="hidden" id="estudios">
+      <div class="sectionTitle">Estudios</div>
+      <div class="indent">
+        <span class="title"> - Instituto tecnológico metropolitano 2011</span>
+      </div>
+      <div class="sectionTitle">Estudios complementarios</div>
+      <div class="indent">
+        <span class="title">
+          Pedagogía para profesionales no licenciados - UPB 2021</span
+        >
+      </div>
+    </div>
+
+    <div class="hidden" id="referencias">
+      <div class="sectionTitle">Experiencia laboral</div>
+      <div class="indent">
+        <span class="title">Esta sección esta en construccíon</span> -
+        <a href="https://gloomyy.github.io/" target="_blank"
+          ><span class="command">Ejemplo</span></a
+        >
+      </div>
+    </div>
+    <!--Fin secciones-->
+    <script src="/js/scripts.js"></script>
+  </body>
+</html>
