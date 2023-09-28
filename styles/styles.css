@@ -1,11 +1,11 @@
 :root{
-  --gray:#626963;
+  --gray:#1558d6;
   --background: #272A36;
   --header: #4a4a4a;
   --text: #f5f3f1;
   --title: #eeb7eb;
   --command:#68ff99;
-  --error: #ff8383;
+  --error: #ff0000;
 }
 
 body {
